@@ -37,7 +37,7 @@ h1{
 
 .fixed-bottom{
 	position:fixed;
-	background:url('./img/bottom.png');
+	background:url('img/bottom.png');
 	z-index:1000000000;
 	width:100%;
 	height:120px;
@@ -73,7 +73,7 @@ h1{
 .decade-inner{
 	margin:auto;
 	width:auto;
-	background:url('./img/papercard.jpg');
+	background:url('img/papercard.jpg');
 	background-size:cover;
 	padding:0px 100px 0px 100px;
 	height:100%;
@@ -107,8 +107,9 @@ h1{
 }
 
 .nav-button:hover{
-	background:grey;
+	background:rgba(30,30,30,0.2);
 	transition:0.2s;
+	cursor:pointer;
 }
 
 .spacer{
@@ -116,6 +117,9 @@ h1{
 	position:relative;
 	display:flex;
 	background:slategrey;
+	background-image:url('img/tile.png');
+	background-repeat: repeat;
+	background-size:30%;
 
 }
 
@@ -123,13 +127,13 @@ h1{
 	z-index:99999999;
 	background:black;
 	height:200px;
-	background-image:url('./img/cleanParchment.png');
+	background-image:url('img/cleanParchment.png');
 }
 
 .spacer h1{
 	font-size:60px;
 	margin:auto;
-	background-image:url('./img/goldframe.png');
+	background-image:url('img/goldframe.png');
 	background-size:auto 220px;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -252,7 +256,7 @@ transform:translateY(-30px);
 	font-family:arvo;
 	line-height: 1.5em;
 	letter-spacing:0.05em;
-	background:url('./img/Parchment.png');
+	background:url('img/parchment.png');
     background-size:cover;
     margin:20px;
 }
@@ -487,11 +491,21 @@ th{
 	width:100vw;
 	z-index:999999999999!important;
 	position:absolute;
-	background:#003355;
-	display:flex;
+  display:flex;
+	background-color:#003355;
+	opacity:1;
 	color:white;
 }
 
+.title-bg{
+	height:inherit;
+	width:inherit;
+		background-size:40%;
+	background-image:url('img/tile.png');
+		display:flex;
+		opacity:0.3;
+		position:absolute;
+}
 .title-inner{
 	padding-top:50px;
 	padding-bottom:50px;
@@ -537,5 +551,24 @@ th{
 	padding:0px;
 	line-height:0px;
 	margin-bottom:30px;
-	opacity:0.5;
+	opacity:0.7;
+	transition:0.3s ease-in-out;
+
+
+}
+
+.title-inner a{
+	text-decoration:none;
+	color:white;
+}
+
+.title-inner h4:hover{
+ transform:scale(1.8) translateY(-5px);
+ transition:0.3s ease-in-out;
+ opacity:1;
+ 	cursor:pointer;
+}
+
+.title-inner a:hover{
+	cursor:pointer;
 }
