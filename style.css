@@ -519,3 +519,46 @@ th h5:not(:first-child):not(:last-child){
 .title-inner a:hover{
 	cursor:pointer;
 }
+
+@media screen and (max-width: 600px){
+  .spacer h1{
+	font-size:45px;
+	background-size:auto 150px;
+}
+
+.fixed-bottom{
+	background-size:auto 150px;
+}
+.spacer{
+	background-attachment: scroll;
+	background-size:80%;
+}
+
+.title-inner h3{
+ font-size:20px;
+}
+
+.title-inner h2{
+	font-size:25px;
+}
+
+
+.title-inner h1{
+	font-size:50px;
+
+}
+
+.text {
+	font-size:14px;
+}
+.feature{
+	font-size:16px;
+	margin:0px;
+}
+
+
+
+.date{
+	margin:0px 0px 20px 0px;
+}
+}
