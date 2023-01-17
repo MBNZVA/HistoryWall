@@ -2,6 +2,8 @@ html{
 	scroll-behavior: smooth!important;
 	overflow-y:hidden;
 	max-height:100vh;
+	max-width:100vw;
+	overflow-x:hidden;
 }
 
 body{
@@ -12,10 +14,14 @@ body{
 	overflow:hidden;
 	font-family:'Poppins';
 	box-sizing: border-box;
+	max-width:100vw;
+	overflow-x:hidden;
 }
 
 .content-container{
 	height:100%;
+	max-width:100vw;
+	overflow-x:hidden;
 	box-sizing: border-box;
 }
 
