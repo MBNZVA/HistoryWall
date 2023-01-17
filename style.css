@@ -68,6 +68,8 @@ h1{
 	transform:translateY(-110px);
 	display:flex;
 	z-index:1000000;
+	background:url('img/3/papercard.jpg');
+		box-shadow: -1px -1px 10px rgba(0,0,0,0.5);
 }
 
 
@@ -80,12 +82,13 @@ h1{
 .decade-inner{
 	margin:auto;
 	width:auto;
-	background:url('img/3/papercard.jpg');
+
+
 	background-size:cover;
-	padding:0px 100px 0px 100px;
+	padding:0px 0px 0px 0px;
 	height:100%;
 	display:flex;
-	box-shadow: -1px -1px 10px rgba(0,0,0,0.5);
+
 }
 
 .nav-button a{

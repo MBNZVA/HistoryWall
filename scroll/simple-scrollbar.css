@@ -56,7 +56,8 @@
   display: block;
   height: 100vh!important; /* Required for horizontal native scrollbar to not appear if parent is taller than natural height */
   width: auto;
-  max-width: 100%; /* Not required for horizontal scroll to trigger */
+  max-width: 100vw; /* Not required for horizontal scroll to trigger */
+  overflow-x:hidden;
   max-height: 100%; /* Needed for vertical scroll to trigger */
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -257,7 +258,7 @@
   height: 500px;
   width: 500px;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .simplebar-hide-scrollbar {
