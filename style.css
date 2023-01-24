@@ -130,11 +130,27 @@ h1{
 	background-size:30%;
 }
 
-.spacer-bottom{
-	z-index:99999999;
-	background:black;
-	height:200px;
-	background-image:url('img/3/cleanParchment.jpg');
+
+
+.submissions{
+	padding:20px 0px;
+	width:100%;
+	background:rgba(0,0,0,0.2);
+	position:absolute;
+	left:0;
+	bottom:0;
+	display:flex;
+}
+
+.submissions p{
+	margin:auto;
+	width:80%;
+	max-width:1000px;
+}
+
+.submissions a{
+	text-decoration: underline!important;
+	font-weight:600;
 }
 
 .spacer h1{
@@ -150,6 +166,31 @@ h1{
 	text-align:center;
 	z-index:1!important;
 	padding:10px 10px 10px 10px;
+}
+
+.spacer-bottom{
+	z-index:99999999999999999999;
+
+	height:100vh;
+
+
+
+}
+
+.submissions-bottom{
+   top:0;
+   bottom:0;
+   background:rgba(0,51,85,0.8);
+}
+
+.submissions-bottom p{
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+
+.submissions-bottom a{
+	color:white;
 }
 
 
@@ -308,26 +349,7 @@ h1{
 	line-height: 1.5em;
 }
 
-.submissions{
-	padding:20px 0px;
-	width:100%;
-	background:rgba(0,0,0,0.2);
-	position:absolute;
-	left:0;
-	bottom:0;
-	display:flex;
-}
 
-.submissions p{
-	margin:auto;
-	width:80%;
-	max-width:1000px;
-}
-
-.submissions a{
-	text-decoration: underline!important;
-	font-weight:600;
-}
 
 .feature:hover{
 	transform:scale(1.1)!important;
@@ -554,6 +576,7 @@ th h5:not(:first-child):not(:last-child){
 	background-attachment: scroll;
 	background-size:80%;
 }
+
 
 .title-inner h3{
  font-size:20px;
