@@ -308,6 +308,27 @@ h1{
 	line-height: 1.5em;
 }
 
+.submissions{
+	padding:20px 0px;
+	width:100%;
+	background:rgba(0,0,0,0.2);
+	position:absolute;
+	left:0;
+	bottom:0;
+	display:flex;
+}
+
+.submissions p{
+	margin:auto;
+	width:80%;
+	max-width:1000px;
+}
+
+.submissions a{
+	text-decoration: underline!important;
+	font-weight:600;
+}
+
 .feature:hover{
 	transform:scale(1.1)!important;
 	background:rgba(160,160,160,0.1);
